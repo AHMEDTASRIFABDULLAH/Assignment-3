@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3</title>
+    <!-- dasyUi Cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- dasyUi Cdn End -->
+    <!-- Google-Font-Manrop -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google-Font-Manrop--End -->
+    <!-- Remix-icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Remix-Icon-End -->
+    <!-- coustom -- color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "button-color": "#ABEF5F",
+              "button-text": "#1C1C1C",
+              "h-text": "#414040",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- coustom -- color--End -->
+    <!-- font-family css-->
+    <style>
+      .font-f {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <!-- font-family css --End -->
+  </head>
+  <body class="font-f">
+    <!-- Header-Section -->
+    <header class="container mx-auto bg-[#F7F7F7]">
+      <!-- Nav-Section -->
+      <nav class="">
+        <div class="navbar bg-base-100 bg-[#F7F7F7]">
+          <div class="navbar-start">
+            <i
+              class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-[#1C1C1C] font-light bg-button-color border"
+            ></i>
+            <a class="btn btn-ghost text-[32px] font-extrabold pl-0 ml-2"
+              >Rinterio</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-[#737373]">
+              <li class="hover:font-extrabold hover:text-[#494949]">
+                <a>Home</a>
+              </li>
+              <li class="hover:font-extrabold hover:text-[#494949]">
+                <a>Services</a>
+              </li>
+              <li class="hover:font-extrabold hover:text-[#494949]">
+                <a>Portfolio</a>
+              </li>
+              <li class="hover:font-extrabold hover:text-[#494949]">
+                <a>Blogs</a>
+              </li>
+              <li class="hover:font-extrabold hover:text-[#494949]">
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="sm:flex hidden">
+              <i
+                class="ri-search-line w-12 h-12 flex justify-center items-center text-2xl rounded-[50%] text-[#737373] bg-white border"
+              ></i>
+              <i
+                class="ri-shopping-cart-2-line w-12 h-12 flex justify-center items-center text-2xl rounded-[50%] text-[#737373] mx-4 bg-white border"
+              ></i>
+            </div>
+            <a
+              class="btn rounded-[32px] text-xl bg-button-color text-button-text font-extrabold sm:flex hidden"
+              >Book Consult
+              <i
+                class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-white font-light bg-[#1C1C1C] border"
+              ></i
+            ></a>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
+              >
+                <li class="hover:font-extrabold hover:text-[#494949]">
+                  <a>Home</a>
+                </li>
+                <li class="hover:font-extrabold hover:text-[#494949]">
+                  <a>Services</a>
+                </li>
+                <li class="hover:font-extrabold hover:text-[#494949]">
+                  <a>Portfolio</a>
+                </li>
+                <li class="hover:font-extrabold hover:text-[#494949]">
+                  <a>Blogs</a>
+                </li>
+                <li class="hover:font-extrabold hover:text-[#494949]">
+                  <a>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- banner img - section -->
+      <div class="text-center flex flex-col justify-center items-center">
+        <img src="assets/banner.png" alt="" />
+        <h1
+          class="md:text-6xl sm:text-4xl text-3xl pr-6 pl-6 font-extrabold mt-6"
+        >
+          A barn house of this design has a <br class="sm:block hidden" />
+          striking appearance
+        </h1>
+        <p class="mt-6 mb-8 pr-6 pl-6">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal <br />
+          accents, and large windows that flood the space with natural light.
+        </p>
+        <button
+          class="w-[206px] h-[56px] rounded-[32px] text-xl font-bold flex items-center justify-center gap-1 bg-[#D3F6AD]"
+        >
+          View Details
+
+          <div class="rounded-full flex justify-center items-center">
+            <i
+              class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-[#1C1C1C] font-light bg-button-color border"
+            ></i>
+          </div>
+        </button>
+      </div>
+      <!-- banner img - section-End -->
+      <!-- nav-Section -->
+    </header>
+    <!-- Header-Section -->
+    <!-- Main-Section -->
+    <main>
+      <!-- Section-two -->
+      <section>
+        <div class="hero bg-base-200 min-h-screen">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+              class="max-w-sm rounded-lg shadow-2xl"
+            />
+            <div>
+              <button
+                class="w-[138px] h-[38px] bg-white text-[#494949] rounded-3xl font-bold"
+              >
+                <i class="ri-arrow-right-line font-bold text-[#494949]"></i>
+                About Us
+              </button>
+              <h1 class="text-[40px] font-bold">
+                We design thoughtful, liveable spaces
+              </h1>
+              <p class="py-6">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section-two-End -->
+    </main>
+    <!-- Main-Section-end -->
+  </body>
+</html>
