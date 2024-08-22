@@ -35,7 +35,8 @@
               clifford: "#da373d",
               "button-color": "#ABEF5F",
               "button-text": "#1C1C1C",
-              "h-text": "#414040",
+              "small-h1": "#494949",
+              "small-p": "#737373",
             },
           },
         },
@@ -52,10 +53,10 @@
   </head>
   <body class="font-f">
     <!-- Header-Section -->
-    <header class="container mx-auto bg-[#F7F7F7]">
+    <header class="container mx-auto">
       <!-- Nav-Section -->
       <nav class="">
-        <div class="navbar bg-base-100 bg-[#F7F7F7]">
+        <div class="navbar bg-base-100">
           <div class="navbar-start">
             <i
               class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-[#1C1C1C] font-light bg-button-color border"
@@ -173,31 +174,78 @@
     <!-- Main-Section -->
     <main>
       <!-- Section-two -->
-      <section>
-        <div class="hero bg-base-200 min-h-screen">
-          <div class="hero-content flex-col lg:flex-row-reverse">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-              class="max-w-sm rounded-lg shadow-2xl"
-            />
+      <section class="mt-24 bg-[#F4F4F4] mx-auto pt-[50px]">
+        <div
+          class="container mx-auto xl:flex xl:justify-center xl:bg-[url('./assets/Vector.png')] bg-no-repeat bg-left-top pt-[50px]"
+        >
+          <div class="flex justify-center items-center">
             <div>
-              <button
-                class="w-[138px] h-[38px] bg-white text-[#494949] rounded-3xl font-bold"
+              <div class="flex justify-center xl:justify-start">
+                <button
+                  class="w-[138px] h-[38px] bg-white text-[#494949] rounded-3xl font-bold"
+                >
+                  <i class="ri-arrow-right-line font-bold text-[#494949]"></i>
+                  About Us
+                </button>
+              </div>
+
+              <h1
+                class="text-center xl:text-start lg:text-[32px] xl:text-[40px] text-[28px] font-bold text-[#212121] mt-4"
               >
-                <i class="ri-arrow-right-line font-bold text-[#494949]"></i>
-                About Us
-              </button>
-              <h1 class="text-[40px] font-bold">
-                We design thoughtful, liveable spaces
+                We design thoughtful, <br />
+                liveable spaces
               </h1>
-              <p class="py-6">
+              <p class="mt-6 text-center xl:text-start">
                 The barn house captivates with its blend of rustic charm and
+                <br />
                 modern sophistication, featuring weathered wood, sleek metal
                 accents.
               </p>
+              <!-- Card -->
+              <div class="p-5 xl:p-0">
+                <div
+                  class="flex p-6 gap-6 bg-white rounded-2xl mt-6 xl:w-11/12"
+                >
+                  <img src="assets/commercial.png" alt="" />
+                  <div>
+                    <h2
+                      class="card-title text-small-h1 text-xl font-extrabold pb-3"
+                    >
+                      Commercial
+                    </h2>
+                    <p class="text-small-p font-medium">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+                <!-- Card-Two -->
+                <div
+                  class="flex p-6 gap-6 bg-white rounded-2xl mt-6 xl:w-11/12 mb-6"
+                >
+                  <img src="assets/commercial.png" alt="" />
+                  <div>
+                    <h2
+                      class="card-title text-small-h1 text-xl font-extrabold pb-3"
+                    >
+                      Commercial
+                    </h2>
+                    <p class="text-small-p font-medium">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card-End -->
             </div>
           </div>
+          <div class="flex justify-center items-center p-5">
+            <img src="assets/Rectangle.png" alt="" />
+          </div>
         </div>
+        <!-- Our-Monitoring-Section -->
+        <!-- Our-Monitoring-Section -->
       </section>
       <!-- Section-two-End -->
     </main>
