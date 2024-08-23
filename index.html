@@ -374,73 +374,80 @@
 
       <!-- Extra--Point--Section -->
       <section
-        class="container mx-auto flex flex-col items-center gap-6 sm:bg-white bg-[#F4F4F4] p-5"
+        class="container mx-auto grid-cols-1 grid sm:grid-cols-6 gap-6 sm:p-0 p-5 sm:bg-white bg-[#F4F4F4]"
       >
-        <div class="md:flex xl:gap-6">
-          <div
-            class="md:flex p-6 border gap-6 rounded-2xl sm:mb-0 mb-6 bg-white"
-          >
-            <img class="w-full sm:w-auto" src="assets/img1.png" alt="" />
-            <div>
-              <h1 class="text-2xl text-small-h1 font-extrabold sm:mt-0 mt-6">
-                Commercial
-              </h1>
-              <p class="mt-4 mb-5 text-small-p font-medium">
-                The barn house captivates with its blend of rustic charm and
-                modern. The barn house captivates with its blend of rustic charm
-                and modern .
-              </p>
-              <button
-                class="rounded-[32px] text-xl font-bold flex items-center justify-center gap-1"
-              >
-                View Details
+        <div
+          class="md:flex xl:col-span-5 sm:col-span-6 p-6 border gap-6 rounded-2xl sm:mb-0 mb-6 bg-white"
+        >
+          <img class="w-full sm:w-auto" src="assets/img1.png" alt="" />
+          <div>
+            <h1 class="text-2xl text-small-h1 font-extrabold sm:mt-0 mt-6">
+              Commercial
+            </h1>
+            <p class="mt-4 mb-5 text-small-p font-medium">
+              The barn house captivates with its blend of rustic charm and
+              modern. The barn house captivates with its blend of rustic charm
+              and modern .
+            </p>
+            <button
+              class="rounded-[32px] text-xl font-bold flex items-center justify-center gap-1"
+            >
+              View Details
 
-                <div class="rounded-full flex justify-center items-center">
-                  <i
-                    class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-[#1C1C1C] font-light bg-button-color border"
-                  ></i>
-                </div>
-              </button>
-            </div>
-          </div>
-          <div class="p-6 border rounded-2xl bg-white">
-            <img class="w-full h-full" src="assets/img2.png" alt="" />
+              <div class="rounded-full flex justify-center items-center">
+                <i
+                  class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-[#1C1C1C] font-light bg-button-color border"
+                ></i>
+              </div>
+            </button>
           </div>
         </div>
-        <!-- part-two -->
-        <div class="md:flex xl:gap-6">
-          <div class="p-6 border rounded-2xl bg-white sm:mb-0 mb-6">
-            <img class="w-full sm:w-auto" src="assets/img3.png" alt="" />
-          </div>
-          <div
-            class="md:flex xl:gap-6 p-6 border gap-6 sm:mb-0 mb-6 rounded-2xl bg-white"
-          >
-            <img class="w-full sm:w-auto" src="assets/img4.png" alt="" />
-            <div>
-              <h1 class="text-2xl text-small-h1 font-extrabold sm:mt-0 mt-6">
-                Commercial
-              </h1>
-              <p class="mt-4 mb-5 text-small-p font-medium">
-                The barn house captivates with its blend of rustic charm <br />
-                and modern. The barn house captivates with its blend of <br />
-                rustic charm and modern .
-              </p>
-              <button
-                class="rounded-[32px] text-xl font-bold flex items-center justify-center gap-1"
-              >
-                View Details
+        <div
+          class="p-6 border xl:col-span-1 sm:col-span-3 rounded-2xl bg-white"
+        >
+          <img class="w-full h-full" src="assets/img2.png" alt="" />
+        </div>
+        <div class="p-6 border sm:col-span-3 xl:hidden rounded-2xl bg-white">
+          <img class="w-full h-full" src="assets/img5.png" alt="" />
+        </div>
 
-                <div class="rounded-full flex justify-center items-center">
-                  <i
-                    class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-[#1C1C1C] font-light bg-button-color border"
-                  ></i>
-                </div>
-              </button>
-            </div>
+        <!-- part-two -->
+
+        <div class="p-6 sm:hidden xl:block border rounded-2xl bg-white">
+          <img class="w-full h-full" src="assets/img3.png" alt="" />
+        </div>
+        <div
+          class="md:flex xl:gap-6 p-6 border gap-6 sm:mb-0 mb-6 rounded-2xl bg-white sm:col-span-6 xl:col-span-4"
+        >
+          <img class="w-full sm:w-auto" src="assets/img4.png" alt="" />
+          <div>
+            <h1 class="text-2xl text-small-h1 font-extrabold sm:mt-0 mt-6">
+              Commercial
+            </h1>
+            <p class="mt-4 mb-5 text-small-p font-medium">
+              The barn house captivates with its blend of rustic charm <br />
+              and modern. The barn house captivates with its blend of <br />
+              rustic charm and modern .
+            </p>
+            <button
+              class="rounded-[32px] text-xl font-bold flex items-center justify-center gap-1"
+            >
+              View Details
+              <div class="rounded-full flex justify-center items-center">
+                <i
+                  class="ri-arrow-right-up-line w-8 h-8 flex justify-center items-center text-2xl rounded-[50%] text-[#1C1C1C] font-light bg-button-color border"
+                ></i>
+              </div>
+            </button>
           </div>
-          <div class="p-6 border rounded-2xl bg-white">
-            <img class="w-full sm:w-auto" src="assets/img5.png" alt="" />
-          </div>
+        </div>
+        <div class="p-6 xl:hidden border sm:col-span-3 rounded-2xl bg-white">
+          <img class="w-full h-full" src="assets/img3.png" alt="" />
+        </div>
+        <div
+          class="p-6 border rounded-2xl xl:col-span-1 sm:col-span-3 bg-white"
+        >
+          <img class="w-full h-full" src="assets/img5.png" alt="" />
         </div>
       </section>
       <!-- Extra--Point--Section-End -->
